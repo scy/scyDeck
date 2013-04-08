@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>scyDeck Example</title>
+	<link rel="stylesheet" href="scyDeck/highlight.js/src/styles/sunburst.css" media="handheld,projection,screen,tv" />
+	<link rel="stylesheet" href="scyDeck/deck.js/core/deck.core.css" media="handheld,projection,screen,tv" />
+	<link rel="stylesheet" href="scyDeck/deck.js/extensions/hash/deck.hash.css" media="handheld,projection,screen,tv" />
+	<link rel="stylesheet" href="scyDeck/deck.js/extensions/menu/deck.menu.css" media="handheld,projection,screen,tv" />
+	<link rel="stylesheet" href="scyDeck/scyDeck-neon.css" media="handheld,projection,screen,tv" />
+	<link rel="stylesheet" href="scyDeck/deck.js/themes/transition/horizontal-slide.css" media="handheld,projection,screen,tv" />
+	<link rel="stylesheet" href="scyDeck/scyDeck-print.css" media="print" />
+	<link rel="stylesheet" href="scyDeck/animate.css/animate.css" media="handheld,projection,screen,tv" />
+	<script src="deck.js/modernizr.custom.js"></script>
+	<script>
+		window.scyDeck = {
+			conf: {
+				addSlideClassTo: 'section',
+				trimPreCode:     true,
+				initDeck:        true
+			}
+		};
+	</script>
+</head>
+
+<body class="deck-container">
+	<section><h1>scyDeck Example</h1></section>
+
+	<section><h2>Example slide</h2>
+	<ul>
+		<li>Foo</li>
+	</ul></section>
+
+	<!-- Does not work, apparently. <script src="highlight.js/src/highlight.js"></script> -->
+	<script src="scyDeck/deck.js/jquery-1.7.2.min.js"></script>
+	<script src="scyDeck/scyDeck-prepare.js"></script>
+	<script src="scyDeck/deck.js/core/deck.core.js"></script>
+	<script src="scyDeck/deck.js/extensions/hash/deck.hash.js"></script>
+	<script src="scyDeck/deck.js/extensions/menu/deck.menu.js"></script>
+</body>
+
+</html>
